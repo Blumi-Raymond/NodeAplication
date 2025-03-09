@@ -360,7 +360,7 @@
             }
           },
           "503": {
-            "description": "Server currently unavailable.",
+            "description": " currently unavailable.",
             "content": {
               "application/json": {
                 "schema": {
