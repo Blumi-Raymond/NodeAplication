@@ -14,7 +14,7 @@ app.get('', (req, res) => {
   renderApi.auth(process.env.RENDER_API_KEY);
   renderApi.listServices({ includePreviews: 'true', limit: '20' })
     .then(({ data }) => {
-      console.log(data)
+      // console.log(data)
       return res.status(200).send({ data: data })
     }
     )
