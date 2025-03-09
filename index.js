@@ -6,7 +6,7 @@ import renderApi from '@api/render-api';
 
 
 const app = express();
-const port = 3001
+const port = process.env.NODE_APP_API_URL||3001
 dotenv.config()
 app.use(bodyParser.json())
 app.use(cors())
